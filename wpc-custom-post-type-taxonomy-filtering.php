@@ -34,7 +34,7 @@ if ( ! function_exists( 'wpc_custom_post_type_taxonomy_filtering' ) ) {
 
             $taxonomies = get_object_taxonomies( $screen->post_type, 'objects' );
 
-            // Retrieve each taxonomies
+            // Retrieve each taxonomy
             foreach ( $taxonomies as $taxonomy ) {
 
                 // Loop through each taxonomy
@@ -44,7 +44,7 @@ if ( ! function_exists( 'wpc_custom_post_type_taxonomy_filtering' ) ) {
                     <select name="' . $taxonomy->query_var . '" id="filter-by-' . $taxonomy->query_var . '">
                         <option  selected="selected" value="">' . $taxonomy->{'labels'}->all_items. '</option>';
 
-                    // Retrieve each terms
+                    // Retrieve each term
                     $terms = get_terms(
                         array(
                             'taxonomy' => $taxonomy->query_var,
@@ -52,11 +52,11 @@ if ( ! function_exists( 'wpc_custom_post_type_taxonomy_filtering' ) ) {
                             'pad_counts' => true,
                         )
                     );
-
-                    // Loop through each terms
+                    
+                    // Loop through each term
                     foreach ( $terms as $term ) { 
 
-                        // Retrieve each parents
+                        // Retrieve each parent
                         $parents = get_term_parents_list( $term->term_id, $term->taxonomy,
                             array(
                                 'format' => 'slug',
@@ -65,7 +65,7 @@ if ( ! function_exists( 'wpc_custom_post_type_taxonomy_filtering' ) ) {
                             )
                         );
 
-                        // Count each parents
+                        // Count each parent
                         $parents_count = sizeof( explode( '/', $parents ) );
 
                         echo '<option value="' . $term->slug . '">' . str_repeat( str_repeat( '&#160;', 3 ), $parents_count - 1 ) . $term->name . '</option>';
