@@ -8,7 +8,7 @@ A non-invasive, lightweight WordPress plugin adding custom post type admin taxon
 |Tested up to:|`5.7.1`|
 
 ## Filter visibility behavior
-Default behavior inherited from the [`register_taxonomy`](https://developer.wordpress.org/reference/functions/register_taxonomy/#parameters) function argument `show_admin_column`.
+Default behavior inherited from the [`register_taxonomy`](https://developer.wordpress.org/reference/functions/register_taxonomy/#parameters) function argument, `show_admin_column`.
 
 ## Hierarchical display
 Terms within the selector are visually hierarchically displayed for a better user experience.
