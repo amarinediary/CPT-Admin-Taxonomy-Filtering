@@ -29,8 +29,6 @@ If you have a copy of the plugin as a zip file, you can manually upload it and i
 4. Click the Install Now button.
 5. When installation is complete, you’ll see “Plugin installed successfully.” Click the Activate Plugin button at the bottom of the page.
 
-Learn more @ [Manual Upload via WordPress Admin](https://wordpress.org/support/article/managing-plugins/#manual-upload-via-wordpress-admin)
-
 ## Bugs and feature requests
 
 A problem ? An idea ? [Please open a new issue](https://github.com/amarinediary/WPC-Custom-Post-Type-Admin-Taxonomy-Filtering/issues/new).
