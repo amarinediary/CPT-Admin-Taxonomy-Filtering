@@ -37,4 +37,4 @@ A problem ? An idea ? [Please open a new issue](https://github.com/amarinediary/
 
 ## Copyright and license
 
-Released under [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication](https://github.com/amarinediary/WPC-Custom-Post-Type-Admin-Taxonomy-Filtering/blob/main/LICENSE)
+Released under [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication](https://github.com/amarinediary/WPC-Custom-Post-Type-Admin-Taxonomy-Filtering/blob/main/LICENSE).
