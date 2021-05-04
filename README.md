@@ -1,6 +1,6 @@
 # WPC-Custom-Post-Type-Admin-Taxonomy-Filtering
 
-A non-invasive, lightweight WordPress plugin adding custom post type admin taxonomy filtering support. WPC-Custom-Post-Type-Admin-Taxonomy-Filtering is a plug-and-play plugin with no required configuration.
+A non-invasive, lightweight WordPress plugin adding custom post type admin taxonomy filtering support. [WPC-Custom-Post-Type-Admin-Taxonomy-Filtering](https://github.com/amarinediary/WPC-Custom-Post-Type-Admin-Taxonomy-Filtering) is a plug-and-play plugin with no required configuration.
 
 ||Version|
 |- |- |
@@ -18,6 +18,6 @@ Filter's labels are inherited from the associated taxonomy labels `filter_by_ite
 
 ## Hierarchical display
 
-Terms within a `<select>` tag are visually-hierarchically displayed for a better user experience.
+The main differences between [WPC-Custom-Post-Type-Admin-Taxonomy-Filtering](https://github.com/amarinediary/WPC-Custom-Post-Type-Admin-Taxonomy-Filtering) plugin and other pllugins are the way we handle terms display. Terms within a `<select>` tag are visually-hierarchically displayed for a better user experience.
 
 <img src="https://user-images.githubusercontent.com/7512732/117062756-1fddf580-ad24-11eb-8617-54eea7dfc9f1.jpg" style="max-width:500px;">
