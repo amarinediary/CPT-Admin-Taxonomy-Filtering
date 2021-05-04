@@ -39,7 +39,7 @@ if ( ! function_exists( 'wpc_custom_post_type_taxonomy_filtering' ) ) {
             'nav_menu_item',
         );
 
-        // Fire function on admin edit sreen only
+        // Fire function on custom post types, admin edit sreen only
         if ( 'edit' === $screen->base && ! in_array( $screen->post_type, $restricted_post_type ) ) {
 
             $taxonomies = get_object_taxonomies( $screen->post_type, 'objects' );
