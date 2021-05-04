@@ -10,5 +10,8 @@ A non-invasive, lightweight WordPress plugin adding custom post type admin taxon
 ## Filter visibility behavior
 Default behavior inherited from the [`register_taxonomy`](https://developer.wordpress.org/reference/functions/register_taxonomy/#parameters) function argument, `show_admin_column`.
 
+## Filter labelling
+Filter's labels are inherited from the associated taxonomy labels `filter_by_item` and `all_items`, usually defined from the [`register_taxonomy`](https://developer.wordpress.org/reference/functions/register_taxonomy/#parameters) function arguments.
+
 ## Hierarchical display
 Terms within the selector are visually hierarchically displayed for a better user experience.
