@@ -39,15 +39,14 @@ if ( ! function_exists( 'wpc_custom_post_type_taxonomy_filtering' ) ) {
             'nav_menu_item',
         );
 
-        // Fire function on custom post types, admin edit sreen only
         if ( 'edit' === $screen->base && ! in_array( $screen->post_type, $restricted_post_type ) ) {
 
+            // Retrieve each taxonomy
             $taxonomies = get_object_taxonomies( $screen->post_type, 'objects' );
 
-            // Retrieve each taxonomy
+            // Loop through each taxonomy
             foreach ( $taxonomies as $taxonomy ) {
 
-                // Loop through each taxonomy
                 if ( $taxonomy->show_admin_column && $taxonomy->hierarchical ) {
 
                     echo '<label for="filter-by-' . $taxonomy->query_var . '" class="screen-reader-text">' . $taxonomy->{'labels'}->filter_by_item . '</label>
