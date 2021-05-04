@@ -30,7 +30,17 @@ if ( ! function_exists( 'wpc_custom_post_type_taxonomy_filtering' ) ) {
 
         $screen = get_current_screen();
 
-        if ( is_admin() && 'edit' === $screen->base && ! empty( $screen->post_type ) ) {
+        // Single out WordPress default post types
+        $restricted_post_type = array(
+            'post',
+            'page',
+            'attachment',
+            'revision',
+            'nav_menu_item',
+        );
+
+        // Fire function on admin edit sreen only
+        if ( 'edit' === $screen->base && ! in_array( $screen->post_type, $restricted_post_type ) ) {
 
             $taxonomies = get_object_taxonomies( $screen->post_type, 'objects' );
 
@@ -38,11 +48,11 @@ if ( ! function_exists( 'wpc_custom_post_type_taxonomy_filtering' ) ) {
             foreach ( $taxonomies as $taxonomy ) {
 
                 // Loop through each taxonomy
-                if ( $taxonomy->show_admin_column ) {
+                if ( $taxonomy->show_admin_column && $taxonomy->hierarchical ) {
 
                     echo '<label for="filter-by-' . $taxonomy->query_var . '" class="screen-reader-text">' . $taxonomy->{'labels'}->filter_by_item . '</label>
                     <select name="' . $taxonomy->query_var . '" id="filter-by-' . $taxonomy->query_var . '">
-                        <option  selected="selected" value="">' . $taxonomy->{'labels'}->all_items. '</option>';
+                        <option selected="selected" value="">' . $taxonomy->{'labels'}->all_items. '</option>';
 
                     // Retrieve each term
                     $terms = get_terms(
@@ -58,11 +68,11 @@ if ( ! function_exists( 'wpc_custom_post_type_taxonomy_filtering' ) ) {
 
                         // Retrieve each parent
                         $parents = get_term_parents_list( $term->term_id, $term->taxonomy,
-                            array(
-                                'format' => 'slug',
-                                'link' => false,
-                                'inclusive' => false,
-                            )
+                        array(
+                            'format' => 'slug',
+                            'link' => false,
+                            'inclusive' => false,
+                        )
                         );
 
                         // Count each parent
