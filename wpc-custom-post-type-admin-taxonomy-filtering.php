@@ -49,9 +49,9 @@ if ( ! function_exists( 'wpc_custom_post_type_admin_taxonomy_filtering' ) ) {
 
                 if ( $taxonomy->show_admin_column && $taxonomy->hierarchical ) {
 
-                    echo '<label for="filter-by-' . $taxonomy->query_var . '" class="screen-reader-text">' . $taxonomy->{'labels'}->filter_by_item . '</label>
+                    echo '<label for="filter-by-' . $taxonomy->query_var . '" class="screen-reader-text">' . $taxonomy->labels->filter_by_item . '</label>
                     <select name="' . $taxonomy->query_var . '" id="filter-by-' . $taxonomy->query_var . '">
-                        <option selected="selected" value="">' . $taxonomy->{'labels'}->all_items . '</option>';
+                        <option selected="selected" value="">' . $taxonomy->labels->all_items . '</option>';
 
                     // Retrieve each term
                     $terms = get_terms(
@@ -61,7 +61,7 @@ if ( ! function_exists( 'wpc_custom_post_type_admin_taxonomy_filtering' ) ) {
                             'pad_counts' => true,
                         )
                     );
-                    
+
                     // Loop through each term
                     foreach ( $terms as $term ) { 
 
