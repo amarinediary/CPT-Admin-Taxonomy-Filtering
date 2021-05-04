@@ -1,7 +1,5 @@
 # WPC-Custom-Post-Type-Admin-Taxonomy-Filtering
-A non-invasive, lightweight WordPress plugin adding custom post type admin taxonomy filtering support.
-
-WPC-Custom-Post-Type-Admin-Taxonomy-Filtering is a plug-and-play plugin with no required configuration. 
+A non-invasive, lightweight WordPress plugin adding custom post type admin taxonomy filtering support. WPC-Custom-Post-Type-Admin-Taxonomy-Filtering is a plug-and-play plugin with no required configuration.
 
 ||Version|
 |- |- |
