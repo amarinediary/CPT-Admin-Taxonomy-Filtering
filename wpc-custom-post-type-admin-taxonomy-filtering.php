@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Plugin Name: WPC-Custom-Post-Type-Admin-Taxonomy-Filtering
  * Text Domain: wpc-custom-post-type-admin-taxonomy-filtering
  * Plugin URI: https://github.com/amarinediary/WPC-Custom-Post-Type-Admin-Taxonomy-Filtering
- * Description: A non-invasive, lightweight WordPress plugin adding custom post type admin taxonomy filtering support.
+ * Description: A non-invasive, lightweight WordPress plugin adding custom post type admin taxonomy filtering support. WPC-Custom-Post-Type-Admin-Taxonomy-Filtering is a plug-and-play plugin with no required configuration.
  * Version: 1.0.0
  * Requires at least: 4.8.0
  * Requires PHP: 4.0
