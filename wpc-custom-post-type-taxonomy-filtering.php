@@ -51,7 +51,7 @@ if ( ! function_exists( 'wpc_custom_post_type_taxonomy_filtering' ) ) {
 
                     echo '<label for="filter-by-' . $taxonomy->query_var . '" class="screen-reader-text">' . $taxonomy->{'labels'}->filter_by_item . '</label>
                     <select name="' . $taxonomy->query_var . '" id="filter-by-' . $taxonomy->query_var . '">
-                        <option selected="selected" value="">' . $taxonomy->{'labels'}->all_items. '</option>';
+                        <option selected="selected" value="">' . $taxonomy->{'labels'}->all_items . '</option>';
 
                     // Retrieve each term
                     $terms = get_terms(
