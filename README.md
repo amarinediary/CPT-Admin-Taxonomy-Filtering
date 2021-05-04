@@ -20,4 +20,5 @@ Filter's labels are inherited from the associated taxonomy labels `filter_by_ite
 
 The main differences between [WPC-Custom-Post-Type-Admin-Taxonomy-Filtering](https://github.com/amarinediary/WPC-Custom-Post-Type-Admin-Taxonomy-Filtering) plugin and other pllugins are the way we handle terms display. Terms within a `<select>` tag are visually-hierarchically displayed for a better user experience.
 
-<img src="https://user-images.githubusercontent.com/7512732/117062756-1fddf580-ad24-11eb-8617-54eea7dfc9f1.jpg" style="max-width:500px;">
+![500x260](https://user-images.githubusercontent.com/7512732/117064682-c925eb00-ad26-11eb-9f31-779f3229134b.jpg)
+
