@@ -14,4 +14,4 @@ Default behavior inherited from the [`register_taxonomy`](https://developer.word
 Filter's labels are inherited from the associated taxonomy labels `filter_by_item` and `all_items`, usually defined from the [`register_taxonomy`](https://developer.wordpress.org/reference/functions/register_taxonomy/#parameters) function arguments.
 
 ## Hierarchical display
-Terms within the selector are visually hierarchically displayed for a better user experience.
+Terms within a `<select>` tag are visually-hierarchically displayed for a better user experience.
