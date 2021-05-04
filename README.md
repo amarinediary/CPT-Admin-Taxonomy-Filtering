@@ -15,3 +15,5 @@ Filter's labels are inherited from the associated taxonomy labels `filter_by_ite
 
 ## Hierarchical display
 Terms within a `<select>` tag are visually-hierarchically displayed for a better user experience.
+
+![WPC-Custom-Post-Type-Taxonomy-Filtering](https://user-images.githubusercontent.com/7512732/117060746-8f9eb100-ad21-11eb-85e9-e30b626fcc2b.png)
