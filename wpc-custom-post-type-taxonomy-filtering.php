@@ -67,11 +67,11 @@ if ( ! function_exists( 'wpc_custom_post_type_taxonomy_filtering' ) ) {
 
                         // Retrieve each parent
                         $parents = get_term_parents_list( $term->term_id, $term->taxonomy,
-                        array(
-                            'format' => 'slug',
-                            'link' => false,
-                            'inclusive' => false,
-                        )
+                            array(
+                                'format' => 'slug',
+                                'link' => false,
+                                'inclusive' => false,
+                            )
                         );
 
                         // Count each parent
