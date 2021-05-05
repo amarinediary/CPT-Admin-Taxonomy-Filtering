@@ -28,9 +28,14 @@ if ( ! function_exists( 'cpt_admin_taxonomy_filtering' ) ) {
 
     function cpt_admin_taxonomy_filtering() {
 
+        /**
+         * Get the current screen object.
+         * 
+         * https://developer.wordpress.org/reference/functions/get_current_screen/
+         */
         $screen = get_current_screen();
 
-        // Single out WordPress default post types
+        // Single out WordPress default posts types
         $restricted_post_type = array(
             'post',
             'page',
@@ -41,7 +46,11 @@ if ( ! function_exists( 'cpt_admin_taxonomy_filtering' ) ) {
 
         if ( 'edit' === $screen->base && ! in_array( $screen->post_type, $restricted_post_type ) ) {
 
-            // Retrieve each taxonomy
+            /**
+             * Return the names or objects of the taxonomies which are registered for the requested object or object type, such as a post object or post type name.
+             * 
+             * @link https://developer.wordpress.org/reference/functions/get_object_taxonomies/
+             */
             $taxonomies = get_object_taxonomies( $screen->post_type, 'objects' );
 
             // Loop through each taxonomy
@@ -49,6 +58,11 @@ if ( ! function_exists( 'cpt_admin_taxonomy_filtering' ) ) {
 
                 if ( $taxonomy->show_admin_column ) {
 
+                    /**
+                     * Displays or retrieves the HTML dropdown list of categories. 
+                     * 
+                     * @link https://developer.wordpress.org/reference/functions/wp_dropdown_categories/
+                     */
                     wp_dropdown_categories(
                         array(
                             'show_option_all' => $taxonomy->labels->all_items,
