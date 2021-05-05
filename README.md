@@ -4,15 +4,15 @@ A non-invasive, lightweight WordPress plugin adding custom post type admin taxon
 
 ## Behavior
 
-Default filter visibility behavior inherited from the [`register_taxonomy`](https://developer.wordpress.org/reference/functions/register_taxonomy/#parameters) function argument: `show_admin_column`, and the [`wp_dropdown_categories`](https://developer.wordpress.org/reference/functions/wp_dropdown_categories/#parameters) function argument: `hide_if_empty`. Labels are inherited from the associated taxonomy labels.
+Default filter visibility behavior inherited from the **[`register_taxonomy`](https://developer.wordpress.org/reference/functions/register_taxonomy/#parameters)** function argument: `show_admin_column`, and the **[`wp_dropdown_categories`](https://developer.wordpress.org/reference/functions/wp_dropdown_categories/#parameters)** function argument: `hide_if_empty`. Labels are inherited from the associated taxonomy labels.
 
 ## Bugs and feature requests
 
-A problem ? An idea ? [Please open a new issue](https://github.com/amarinediary/CPT-Admin-Taxonomy-Filtering/issues/new).
+A problem ? An idea ? **[Please open a new issue](https://github.com/amarinediary/CPT-Admin-Taxonomy-Filtering/issues/new)**.
 
 ## Copyright and license
 
-Released under [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication](https://github.com/amarinediary/CPT-Admin-Taxonomy-Filtering/blob/main/LICENSE).
+Released under **[CC0 1.0 Universal (CC0 1.0) Public Domain Dedication](https://github.com/amarinediary/CPT-Admin-Taxonomy-Filtering/blob/main/LICENSE)**.
 
 ## Screenshots
 
@@ -26,6 +26,6 @@ If you have a copy of the plugin as a zip file, you can manually upload it and i
 
 1. Navigate to Plugins `→` Add New.
 2. Click the Upload Plugin button at the top of the screen.
-3. [Download the plugin as a zip file](https://github.com/amarinediary/CPT-Admin-Taxonomy-Filtering/archive/refs/heads/main.zip), Select it from your local filesystem.
+3. **[Download the plugin as a zip file](https://github.com/amarinediary/CPT-Admin-Taxonomy-Filtering/archive/refs/heads/main.zip)**, Select it from your local filesystem.
 4. Click the Install Now button.
 5. When installation is complete, you’ll see “Plugin installed successfully.” Click the Activate Plugin button at the bottom of the page.
