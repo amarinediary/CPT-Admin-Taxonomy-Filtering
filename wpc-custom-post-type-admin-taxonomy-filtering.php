@@ -47,41 +47,20 @@ if ( ! function_exists( 'wpc_custom_post_type_admin_taxonomy_filtering' ) ) {
             // Loop through each taxonomy
             foreach ( $taxonomies as $taxonomy ) {
 
-                if ( $taxonomy->show_admin_column && $taxonomy->hierarchical ) {
+                if ( $taxonomy->show_admin_column ) {
 
-                    echo '<label for="filter-by-' . $taxonomy->query_var . '" class="screen-reader-text">' . $taxonomy->labels->filter_by_item . '</label>
-                    <select name="' . $taxonomy->query_var . '" id="filter-by-' . $taxonomy->query_var . '">
-                        <option selected="selected" value="">' . $taxonomy->labels->all_items . '</option>';
-
-                    // Retrieve each term
-                    $terms = get_terms(
+                    wp_dropdown_categories(
                         array(
-                            'taxonomy' => $taxonomy->query_var,
-                            'hide_empty' => false,
+                            'show_option_all' => $taxonomy->labels->all_items,
                             'pad_counts' => true,
+                            'show_count' => true,
+                            'hierarchical' => true,
+                            'name' => $taxonomy->query_var, 
+                            'value_field' => 'slug',
+                            'taxonomy' => $taxonomy->query_var,
+                            'hide_if_empty' => true,
                         )
                     );
-
-                    // Loop through each term
-                    foreach ( $terms as $term ) { 
-
-                        // Retrieve each parent
-                        $parents = get_term_parents_list( $term->term_id, $term->taxonomy,
-                            array(
-                                'format' => 'slug',
-                                'link' => false,
-                                'inclusive' => false,
-                            )
-                        );
-
-                        // Count each parent
-                        $parents_count = sizeof( explode( '/', $parents ) );
-
-                        echo '<option value="' . $term->slug . '">' . str_repeat( str_repeat( '&#160;', 3 ), $parents_count - 1 ) . $term->name . '</option>';
-
-                    };
-
-                    echo '</select>';
 
                 };
 
