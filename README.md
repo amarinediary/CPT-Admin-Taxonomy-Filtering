@@ -34,10 +34,6 @@ If you have a copy of the plugin as a zip file, you can manually upload it and i
 
 * **[Write us a review](https://wordpress.org/support/plugin/cpt-admin-taxonomy-filtering/reviews/#new-post)**
 
-★★★★★
-> **Just what you need it.**   
-> Nothing more, nothing less. - **[amarinediary](https://profiles.wordpress.org/amarinediary/)**
-
 ## Screenshots
 
 |||
