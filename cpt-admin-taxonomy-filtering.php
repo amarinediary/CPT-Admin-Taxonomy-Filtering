@@ -7,10 +7,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 };
 
 /**
- * Plugin Name: WPC-Custom-Post-Type-Admin-Taxonomy-Filtering
- * Text Domain: wpc-custom-post-type-admin-taxonomy-filtering
- * Plugin URI: https://github.com/amarinediary/WPC-Custom-Post-Type-Admin-Taxonomy-Filtering
- * Description: A non-invasive, lightweight WordPress plugin adding custom post type admin taxonomy filtering support. WPC-Custom-Post-Type-Admin-Taxonomy-Filtering is a plug-and-play plugin with no required configuration.
+ * Plugin Name: CPT-Admin-Taxonomy-Filtering
+ * Text Domain: cpt-admin-taxonomy-filtering
+ * Plugin URI: https://github.com/amarinediary/CPT-Admin-Taxonomy-Filtering
+ * Description: A non-invasive, lightweight WordPress plugin adding custom post type admin taxonomy filtering support. CPT-Admin-Taxonomy-Filtering is a plug-and-play plugin with no required configuration.
  * Version: 1.0.0
  * Requires at least: 4.8.0
  * Requires PHP: 4.0
@@ -18,15 +18,15 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Author: amarinediary
  * Author URI: https://github.com/amarinediary
  * License: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
- * License URI: https://github.com/amarinediary/WPC-Custom-Post-Type-Admin-Taxonomy-Filtering/blob/main/LICENSE
- * GitHub Plugin URI: https://github.com/amarinediary/WPC-Custom-Post-Type-Admin-Taxonomy-Filtering
+ * License URI: https://github.com/amarinediary/CPT-Admin-Taxonomy-Filtering/blob/main/LICENSE
+ * GitHub Plugin URI: https://github.com/amarinediary/CPT-Admin-Taxonomy-Filtering
  * GitHub Branch: main
  */
-add_action( 'restrict_manage_posts', 'wpc_custom_post_type_admin_taxonomy_filtering' );
+add_action( 'restrict_manage_posts', 'cpt_admin_taxonomy_filtering' );
 
-if ( ! function_exists( 'wpc_custom_post_type_admin_taxonomy_filtering' ) ) {
+if ( ! function_exists( 'cpt_admin_taxonomy_filtering' ) ) {
 
-    function wpc_custom_post_type_admin_taxonomy_filtering() {
+    function cpt_admin_taxonomy_filtering() {
 
         $screen = get_current_screen();
 

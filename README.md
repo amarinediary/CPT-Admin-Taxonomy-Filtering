@@ -1,6 +1,6 @@
-# WPC-Custom-Post-Type-Admin-Taxonomy-Filtering
+# CPT-Admin-Taxonomy-Filtering
 
-A non-invasive, lightweight WordPress plugin adding custom post type admin taxonomy filtering support. WPC-Custom-Post-Type-Admin-Taxonomy-Filtering is a plug-and-play plugin with no required configuration.
+A non-invasive, lightweight WordPress plugin adding custom post type admin taxonomy filtering support. CPT-Admin-Taxonomy-Filtering is a plug-and-play plugin with no required configuration.
 
 ||Version|
 |- |- |
@@ -10,11 +10,11 @@ A non-invasive, lightweight WordPress plugin adding custom post type admin taxon
 
 ## Table of contents
 
-- [Behavior](https://github.com/amarinediary/WPC-Custom-Post-Type-Admin-Taxonomy-Filtering#behavior)
-- [Installation](https://github.com/amarinediary/WPC-Custom-Post-Type-Admin-Taxonomy-Filtering#installation)
-- [Screenshots](https://github.com/amarinediary/WPC-Custom-Post-Type-Admin-Taxonomy-Filtering#screenshots)
-- [Bugs and feature requests](https://github.com/amarinediary/WPC-Custom-Post-Type-Admin-Taxonomy-Filtering#bugs-and-feature-requests)
-- [Copyright and license](https://github.com/amarinediary/WPC-Custom-Post-Type-Admin-Taxonomy-Filtering#copyright-and-license)
+- [Behavior](https://github.com/amarinediary/CPT-Admin-Taxonomy-Filtering#behavior)
+- [Installation](https://github.com/amarinediary/CPT-Admin-Taxonomy-Filtering#installation)
+- [Screenshots](https://github.com/amarinediary/CPT-Admin-Taxonomy-Filtering#screenshots)
+- [Bugs and feature requests](https://github.com/amarinediary/CPT-Admin-Taxonomy-Filtering#bugs-and-feature-requests)
+- [Copyright and license](https://github.com/amarinediary/CPT-Admin-Taxonomy-Filtering#copyright-and-license)
 
 ## Behavior
 
@@ -26,7 +26,7 @@ If you have a copy of the plugin as a zip file, you can manually upload it and i
 
 1. Navigate to Plugins `→` Add New.
 2. Click the Upload Plugin button at the top of the screen.
-3. [Download the plugin as a zip file](https://github.com/amarinediary/WPC-Custom-Post-Type-Admin-Taxonomy-Filtering/archive/refs/heads/main.zip), Select it from your local filesystem.
+3. [Download the plugin as a zip file](https://github.com/amarinediary/CPT-Admin-Taxonomy-Filtering/archive/refs/heads/main.zip), Select it from your local filesystem.
 4. Click the Install Now button.
 5. When installation is complete, you’ll see “Plugin installed successfully.” Click the Activate Plugin button at the bottom of the page.
 
@@ -39,8 +39,8 @@ If you have a copy of the plugin as a zip file, you can manually upload it and i
 
 ## Bugs and feature requests
 
-A problem ? An idea ? [Please open a new issue](https://github.com/amarinediary/WPC-Custom-Post-Type-Admin-Taxonomy-Filtering/issues/new).
+A problem ? An idea ? [Please open a new issue](https://github.com/amarinediary/CPT-Admin-Taxonomy-Filtering/issues/new).
 
 ## Copyright and license
 
-Released under [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication](https://github.com/amarinediary/WPC-Custom-Post-Type-Admin-Taxonomy-Filtering/blob/main/LICENSE).
+Released under [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication](https://github.com/amarinediary/CPT-Admin-Taxonomy-Filtering/blob/main/LICENSE).
