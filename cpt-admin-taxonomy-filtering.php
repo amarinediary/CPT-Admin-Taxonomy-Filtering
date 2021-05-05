@@ -31,7 +31,7 @@ if ( ! function_exists( 'cpt_admin_taxonomy_filtering' ) ) {
         /**
          * Get the current screen object.
          * 
-         * https://developer.wordpress.org/reference/functions/get_current_screen/
+         * @link https://developer.wordpress.org/reference/functions/get_current_screen/
          */
         $screen = get_current_screen();
 
