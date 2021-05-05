@@ -33,7 +33,7 @@ If you have a copy of the plugin as a zip file, you can manually upload it and i
 
 |A filter with term hierarchy and posts count|All filters displayed on a custom post type|
 |-|-|
-|[x500-1](https://user-images.githubusercontent.com/7512732/117085892-5bd88100-ad4b-11eb-8432-37e0db6cc8ee.jpg)|![x500-2](https://user-images.githubusercontent.com/7512732/117085935-77438c00-ad4b-11eb-972c-c88d78aa9d26.jpg)|
+|![x500-1](https://user-images.githubusercontent.com/7512732/117085892-5bd88100-ad4b-11eb-8432-37e0db6cc8ee.jpg)|![x500-2](https://user-images.githubusercontent.com/7512732/117085935-77438c00-ad4b-11eb-972c-c88d78aa9d26.jpg)|
 |||
 
 ## Bugs and feature requests
