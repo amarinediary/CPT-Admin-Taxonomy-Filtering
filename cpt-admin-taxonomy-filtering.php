@@ -57,6 +57,7 @@ if ( ! function_exists( 'cpt_admin_taxonomy_filtering' ) ) {
                             'hierarchical' => true,
                             'name' => $taxonomy->query_var,
                             'id' => 'filter-by-' . $taxonomy->query_var,
+                            'class' => '',
                             'value_field' => 'slug',
                             'taxonomy' => $taxonomy->query_var,
                             'hide_if_empty' => true,
