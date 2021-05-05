@@ -32,7 +32,7 @@ If you have a copy of the plugin as a zip file, you can manually upload it and i
 
 ## Screenshots
 
-|Filter with term hierarchy & posts count|Custom post type taxonomy filtering|
+|Filter with term hierarchy & posts count|Multiple custom post type filters|
 |-|-|
 |![x500-1](https://user-images.githubusercontent.com/7512732/117085892-5bd88100-ad4b-11eb-8432-37e0db6cc8ee.jpg)|![x500-2](https://user-images.githubusercontent.com/7512732/117085935-77438c00-ad4b-11eb-972c-c88d78aa9d26.jpg)|
 |||
