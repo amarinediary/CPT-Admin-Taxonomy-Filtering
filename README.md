@@ -17,7 +17,7 @@ A non-invasive, lightweight WordPress plugin adding custom post type admin taxon
 
 ## Behavior
 
-Default visibility behavior inherited from the [`register_taxonomy`](https://developer.wordpress.org/reference/functions/register_taxonomy/#parameters) function argument, `show_admin_column`. Labels are inherited from the associated taxonomy labels `filter_by_item` and `all_items`.
+Default visibility behavior is inherited from the [`register_taxonomy`](https://developer.wordpress.org/reference/functions/register_taxonomy/#parameters) function argument, `show_admin_column`. Labels are inherited from the associated taxonomy labels `filter_by_item` and `all_items`.
 
 ## Installation
 
