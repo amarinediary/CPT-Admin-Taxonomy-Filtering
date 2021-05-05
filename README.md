@@ -12,6 +12,7 @@ A non-invasive, lightweight WordPress plugin adding custom post type admin taxon
 
 - [Behavior](https://github.com/amarinediary/WPC-Custom-Post-Type-Admin-Taxonomy-Filtering#behavior)
 - [Installation](https://github.com/amarinediary/WPC-Custom-Post-Type-Admin-Taxonomy-Filtering#installation)
+- [Screenshots](https://github.com/amarinediary/WPC-Custom-Post-Type-Admin-Taxonomy-Filtering#screenshots)
 - [Bugs and feature requests](https://github.com/amarinediary/WPC-Custom-Post-Type-Admin-Taxonomy-Filtering#bugs-and-feature-requests)
 - [Copyright and license](https://github.com/amarinediary/WPC-Custom-Post-Type-Admin-Taxonomy-Filtering#copyright-and-license)
 
