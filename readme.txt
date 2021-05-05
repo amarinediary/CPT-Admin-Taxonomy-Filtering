@@ -1,6 +1,6 @@
 === CPT-Admin-Taxonomy-Filtering ===
 Contributors: amarinediary
-Tags: category, catogories, taxonomy, taxonomies, custom-taxonomy, custom-taxonomies, filter, filters, filtering, admin, custom-post-type, custom-post-types, cpt, post-type, post-types, ct, taxonomy-filter, filtering
+Tags: category, catogories, taxonomy, taxonomies, custom, filter, filters, filtering, admin, post, posts, type, types, cpt, ct
 Requires at least: 4.8.0
 Tested up to: 5.7.1
 Requires PHP: 4.0
