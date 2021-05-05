@@ -30,10 +30,6 @@ If you have a copy of the plugin as a zip file, you can manually upload it and i
 4. Click the Install Now button.
 5. When installation is complete, you’ll see “Plugin installed successfully.” Click the Activate Plugin button at the bottom of the page.
 
-## Share your experience
-
-* **[Write us a review](https://wordpress.org/support/plugin/cpt-admin-taxonomy-filtering/reviews/#new-post)**
-
 ## Screenshots
 
 |||
