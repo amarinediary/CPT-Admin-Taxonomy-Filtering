@@ -36,7 +36,7 @@ if ( ! function_exists( 'cpt_admin_taxonomy_filtering' ) ) {
         $screen = get_current_screen();
 
         // Single out WordPress default posts types
-        $restricted_post_type = array(
+        $restricted_post_types = array(
             'post',
             'page',
             'attachment',
@@ -44,7 +44,7 @@ if ( ! function_exists( 'cpt_admin_taxonomy_filtering' ) ) {
             'nav_menu_item',
         );
 
-        if ( 'edit' === $screen->base && ! in_array( $screen->post_type, $restricted_post_type ) ) {
+        if ( 'edit' === $screen->base && ! in_array( $screen->post_type, $restricted_post_types ) ) {
 
             /**
              * Return the names or objects of the taxonomies which are registered for the requested object or object type, such as a post object or post type name.
