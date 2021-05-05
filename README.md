@@ -1,6 +1,6 @@
-# CPT-Admin-Taxonomy-Filtering
+# CPT Admin Taxonomy Filtering
 
-A non-invasive, lightweight WordPress plugin adding custom post type admin taxonomy filtering support. CPT-Admin-Taxonomy-Filtering is a plug-and-play plugin with no required configuration.
+A non-invasive, lightweight WordPress plugin adding custom post type admin taxonomy filtering support. CPT Admin Taxonomy Filtering is a plug-and-play plugin with no required configuration.
 
 ## Behavior
 
@@ -8,7 +8,7 @@ Default filter visibility behavior inherited from the [`register_taxonomy`](http
 
 ## Bugs and feature requests
 
-A problem ? An idea ? Please [Open a new issue on GitHub](https://github.com/amarinediary/CPT-Admin-Taxonomy-Filtering/issues/new) or [Ask a question on Wordpress CPT-Admin-Taxonomy-Filtering support](https://wordpress.org/support/plugin/forminator/#new-topic-0).
+A problem ? An idea ? Please [Open a new issue on GitHub](https://github.com/amarinediary/CPT-Admin-Taxonomy-Filtering/issues/new) or [Ask a question on Wordpress CPT Admin Taxonomy Filtering support](https://wordpress.org/support/plugin/forminator/#new-topic-0).
 
 ## Copyright and license
 
