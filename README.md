@@ -2,6 +2,14 @@
 
 A non-invasive, lightweight WordPress plugin adding custom post type admin taxonomy filtering support. CPT-Admin-Taxonomy-Filtering is a plug-and-play plugin with no required configuration.
 
+## Table of contents
+
+- [Behavior](https://github.com/amarinediary/CPT-Admin-Taxonomy-Filtering#behavior)
+- [Bugs and feature requests](https://github.com/amarinediary/CPT-Admin-Taxonomy-Filtering#bugs-and-feature-requests)
+- [Copyright and license](https://github.com/amarinediary/CPT-Admin-Taxonomy-Filtering#copyright-and-license)
+- [Screenshots](https://github.com/amarinediary/CPT-Admin-Taxonomy-Filtering#screenshots)
+- [Installation](https://github.com/amarinediary/CPT-Admin-Taxonomy-Filtering#installation)
+
 ## Behavior
 
 Default filter visibility behavior inherited from the [`register_taxonomy`](https://developer.wordpress.org/reference/functions/register_taxonomy/#parameters) function argument: `show_admin_column`, and the [`wp_dropdown_categories`](https://developer.wordpress.org/reference/functions/wp_dropdown_categories/#parameters) function argument: `hide_if_empty`. Labels are inherited from the associated taxonomy labels.
