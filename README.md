@@ -6,7 +6,7 @@ A non-invasive, lightweight WordPress plugin adding custom post type admin taxon
 |-|-|
 |Requires at least WordPress:|`4.8.0`|
 |Requires PHP:|`4.0`|
-|Tested up to WordPress:|`5.7.2`|
+|Tested up to WordPress:|`5.8.1`|
 
 ## Table of contents
 
