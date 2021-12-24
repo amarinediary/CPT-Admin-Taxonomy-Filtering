@@ -8,7 +8,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /**
  * Plugin Name: CPT-Admin-Taxonomy-Filtering
- * Text Domain: cpt-admin-taxonomy-filtering
+ * Text Domain: CPT-Admin-Taxonomy-Filtering
  * Plugin URI: https://github.com/amarinediary/CPT-Admin-Taxonomy-Filtering
  * Description: A non-invasive, lightweight WordPress plugin adding custom post type admin taxonomy filtering support. CPT-Admin-Taxonomy-Filtering is a plug-and-play plugin with no required configuration.
  * Version: 1.0.0
