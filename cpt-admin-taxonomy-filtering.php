@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Version: 1.0.1
  * Requires at least: 4.8.0
  * Requires PHP: 4.0.0
- * Tested up to: 5.7.1
+ * Tested up to: 5.9.0
  * Author: amarinediary
  * Author URI: https://github.com/amarinediary
  * License: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
